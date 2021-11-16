@@ -2,6 +2,7 @@
 using CursoRafaela.MetodosEFuncoes;
 using CursoRafaela.Excecoes;
 using CursoRafaela.API;
+using CursoRafaela.TopicosAvancados;
 using System;
 
 
@@ -72,6 +73,29 @@ namespace POO
             Console.WriteLine("-------------| | ------------");
             Console.WriteLine("Exemplo DirectoryInfo");
             ExemploDirectoryInfo.Executar();
+            Console.WriteLine("-------------| | ------------");
+            Console.WriteLine("Exemplo Path");
+            ExemploPath.Executar();
+            Console.WriteLine("-------------| | ------------");
+            Console.WriteLine("Exemplo DateTime");
+            ExemploDateTime.Executar();
+            Console.WriteLine("-------------| | ------------");
+            Console.WriteLine("Exemplo TimerSpan");
+            ExemploTimeSpan.Executar();
+
+            //Tópicos Avançados
+            Console.WriteLine("-------------| | ------------");
+            Console.WriteLine(" LINQ #01");
+            LINQ1.Executar();
+            Console.WriteLine("-------------| | ------------");
+            Console.WriteLine("LINQ #02");
+            LINQ2.Executar();
+            Console.WriteLine("-------------| | ------------");
+            Console.WriteLine("Nullables");
+            Nullables.Executar();
+            Console.WriteLine("-------------| | ------------");
+            Console.WriteLine("Dynamics");
+            Dynamics.Executar();
 
 
 
