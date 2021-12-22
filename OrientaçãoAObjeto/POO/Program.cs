@@ -96,6 +96,9 @@ namespace POO
             Console.WriteLine("-------------| | ------------");
             Console.WriteLine("Dynamics");
             Dynamics.Executar();
+            Console.WriteLine("-------------| | ------------");
+            Console.WriteLine("Genericos");
+            Genericos.Executar();
 
 
 
